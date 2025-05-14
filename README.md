@@ -13,7 +13,6 @@ An interactive multi-page web dashboard built with [Dash](https://dash.plotly.co
 │ ├── pg1.py # Summary dashboard
 │ └── pg2.py # Interactive detailed analysis
 ├── README.md
-├── requirements.txt
 
 ```
 
