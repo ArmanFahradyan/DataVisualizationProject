@@ -6,6 +6,7 @@ import dash_bootstrap_components as dbc
 import pandas as pd
 import datetime
 import plotly.graph_objects as go
+import os
 
 
 app = dash.Dash(__name__, use_pages=True, external_stylesheets=[dbc.themes.SPACELAB])
@@ -59,4 +60,4 @@ app.layout = dbc.Container([
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False, host='0.0.0.0', port=8080)
